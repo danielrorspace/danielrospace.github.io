@@ -34,21 +34,6 @@ const Nav = ({ close, trigger }) => {
                   Portfolio
                 </a>
               </li>
-              <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
-                <a onClick={() => close()} href="#services">
-                  Services
-                </a>
-              </li>
-              <li style={{ transitionDelay: !trigger ? "0ms" : "1500ms" }}>
-                <a onClick={() => close()} href="#customers">
-                  Customers
-                </a>
-              </li>
-              <li style={{ transitionDelay: !trigger ? "0ms" : "1700ms" }}>
-                <a onClick={() => close()} href="#news">
-                  News &amp; Tips
-                </a>
-              </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1900ms" }}>
                 <a onClick={() => close()} href="#contact">
                   Contact
@@ -197,13 +182,7 @@ const Nav = ({ close, trigger }) => {
             <div className="copyright">
               {" "}
               Developed by &nbsp;
-              <a
-                href="https://themeforest.net/user/trendycoder"
-                target="_blank"
-                rel="noreferrer"
-              >
-                TrendyCoder
-              </a>
+                Daniel Sanchez
             </div>
           </div>
         </div>

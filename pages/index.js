@@ -19,15 +19,6 @@ const Index = () => {
       <Portfolio />
       {/* /Portfolio Section */}
       {/* Services Section */}
-      <Services />
-      {/* /Services Section */}
-      {/* Customers Section */}
-      <Customers />
-      {/* /Customers Section */}
-      {/* News Section */}
-      <News />
-      {/* /News Section */}
-      {/* Contact Section */}
       <Contact />
       {/* /Contact Section */}
     </Layout>
